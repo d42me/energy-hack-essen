@@ -21,4 +21,10 @@ html, body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    &__body {
+        h2 {
+            margin-bottom: 24px;
+        }
+    }
 }
