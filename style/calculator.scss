@@ -38,6 +38,12 @@ html, body {
         font-family: Montserrat;
     }
 
+    &__loader {
+        margin-left: 8px;
+        height: 32px;
+        width: 32px;
+    }
+
     &__toolbar {
         position: absolute;
         top: 0;
