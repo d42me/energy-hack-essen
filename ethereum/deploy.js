@@ -3,7 +3,7 @@ const Web3 = require('web3');
 const LoadFactory = require('./build/LoadFactory.json');
 
 const provider = new HDWalletProvider(
-  '',
+  'plate bridge husband potato lizard ladder rent shadow acid click cost recipe',
   'rinkeby.infura.io/v3/8a6fdc68063c4c148ac48081779a6598'
 );
 const web3 = new Web3(provider);

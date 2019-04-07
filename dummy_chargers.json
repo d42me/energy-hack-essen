@@ -1,0 +1,29 @@
+[
+    {
+        "id": "00000001",
+        "lat": 52.515868,
+        "lng": 13.422180,
+        "output": 180,
+        "connectorCount": 2,
+        "availableConnectors": 1,
+        "timeOfNextChargeCompletion": 1554587482
+    },
+    {
+        "id": "00000002",
+        "lat": 52.530234,
+        "lng": 13.397034,
+        "output": 220,
+        "connectorCount": 2,
+        "availableConnectors": 0,
+        "timeOfNextChargeCompletion": 1554587482
+    },
+    {
+        "id": "00000003",
+        "lat": 52.512312,
+        "lng": 13.438398,
+        "output": 220,
+        "connectorCount": 2,
+        "availableConnectors": 2,
+        "timeOfNextChargeCompletion": null
+    }
+]
