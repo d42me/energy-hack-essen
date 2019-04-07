@@ -5,7 +5,7 @@ import './ERC20.sol';
 import './ERC223.sol';
 import './ERC223ReceivingContract.sol';
 
-contract StandardToken is ERC20, ERC223 {
+contract EVSeedToken is ERC20, ERC223 {
   using SafeMath for uint;
      
     string internal _name;
@@ -16,7 +16,7 @@ contract StandardToken is ERC20, ERC223 {
     mapping (address => uint256) internal balances;
     mapping (address => mapping (address => uint256)) internal allowed;
 
-    function StandardToken(string name, string symbol, uint8 decimals, uint256 totalSupply) public {
+    function EVSeedToken(string name, string symbol, uint8 decimals, uint256 totalSupply) public {
         _symbol = symbol;
         _name = name;
         _decimals = decimals;
